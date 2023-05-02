@@ -43,7 +43,7 @@ const Card = () => {
         <div class="flex flex-row flex space-x-4  place-content-center">
           <div className=" p-4 shadow-md lg:max-w-lg  mb-8 h-52 w-52 bg-[#181414] rounded-md relative">
           <div class="p-10 w-px h-px rounded-full bg-transparent border-2 border-white text-white absolute top-2 right-2">
-            <p className="text-white text-start">11</p>
+            <p className="text-white text-start">0</p>
             
             </div>
             <div className="space-y-2">
