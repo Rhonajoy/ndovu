@@ -5,14 +5,16 @@ const Card = () => {
   return (
     <>
       <div className="flex flex-col font-poppins">
-        <div className="w-full  mx-96 mb-8 p-2 place-content-center h-32 w-3/6 bg-orange-900  shadow-xl lg:flex lg:max-w-lg rounded-md place-content-center">
-          <div className="pl-2">
+        <div className="w-full  mx-96 mb-8 p-2 flex items-center justify-around h-32 w-3/6 bg-orange-900  shadow-xl lg:flex lg:max-w-lg rounded-md place-content-center">
+          <div className=" flex flex-col pl-2">
             <p className="text-yellow-400 text-center">50</p>
             <p className="text-white text-center">
               Held Balance <br />
               KES
             </p>
           </div>
+          
+          <div className="flex flex-col">
           <div>
             <p className="text-yellow-400">50</p>
             <p className="text-white">
@@ -20,6 +22,7 @@ const Card = () => {
               KES
             </p>
           </div>
+        </div>
         </div>
 
         <div class="flex flex-row flex space-x-4  mb-8 place-content-center">

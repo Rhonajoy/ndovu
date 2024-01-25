@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "netlify-cli": "^17.15.3",
     "tailwindcss": "^3.2.7"
   }
 }
